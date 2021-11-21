@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { SimpleForm } from './components/02-useEffect/SimpleForm';
 // import { CounterApp } from './components/10-useState/CounterApp';
-import { CounterWithCustomHook } from './components/10-useState/CounterWithCustomHook';
+// import { CounterWithCustomHook } from './components/01-useState/CounterWithCustomHook';
 // import { HookApp } from './HookApp';
 
 
@@ -10,7 +11,10 @@ import { CounterWithCustomHook } from './components/10-useState/CounterWithCusto
 ReactDOM.render(
 
     // <CounterApp />,
-    <CounterWithCustomHook />,
+    // <CounterWithCustomHook />,
+    <SimpleForm />,
+
+
 
   document.getElementById('root')
 );
